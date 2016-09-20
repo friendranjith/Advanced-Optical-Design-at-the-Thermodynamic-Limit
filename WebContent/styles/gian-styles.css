@@ -1,0 +1,202 @@
+body {
+	position: relative;
+	margin: 0;
+	background-color: #f0f4c3;
+}
+
+.navbar {
+	border-radius: 0px;	
+	-webkit-box-shadow: 0 5px 10px -10px #303030;
+       -moz-box-shadow: 0 5px 10px -10px #303030;
+    		box-shadow: 0 5px 10px -10px #303030;
+}
+
+.navbar-inverse {
+    background-color: #00897B;
+	border-color: #00897B;
+    /*height: 60px;*/
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+li.menu:hover, li.menu:hover > a {
+	/*background-color: #4DB6AC;
+	 * text-decoration: underline;*/
+	font-weight: 800;
+	text-shadow: 1px 1px #000;
+}
+
+.container-fluid {
+	padding-top: 0px;
+}
+
+.banner{
+	height: 100vh;
+	background-image: #00897B;
+	background-image: -webkit-linear-gradient(bottom, #00897B, #e0f2f1); /* For Safari 5.1 to 6.0 */
+	background-image: -o-linear-gradient(bottom, #00897B, #e0f2f1); /* For Opera 11.1 to 12.0 */
+	background-image: -moz-linear-gradient(bottom, #00897B, #e0f2f1); /* For Firefox 3.6 to 15 */
+	background-image: linear-gradient(to top, #00897B, #e0f2f1); /* Standard syntax */
+}
+
+.header-top {
+	/*height: 150px;*/
+	background-image: #00897B;
+	background-image: -webkit-linear-gradient(bottom, #00897B, #e0f2f1); /* For Safari 5.1 to 6.0 */
+	background-image: -o-linear-gradient(bottom, #00897B, #e0f2f1); /* For Opera 11.1 to 12.0 */
+	background-image: -moz-linear-gradient(bottom, #00897B, #e0f2f1); /* For Firefox 3.6 to 15 */
+	background-image: linear-gradient(to top, #00897B, #e0f2f1); /* Standard syntax */
+}
+
+.title {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.affix .container-fluid {
+	position: relative;
+}
+
+#section1 {
+	padding-top: 10px;
+	height: 1000px;
+	color: #000;
+	background-color: #f0f4c3;
+}
+p.justify {
+	text-align: justify;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/*height: 50px;*/
+	background-color: #212121;
+}
+
+.footer p{
+	color: #C2BBBB;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	margin: 0 auto;
+}
+
+.head-container {
+	width: 100%;
+	margin: 15px auto;
+	color: #FFFFFF;
+	/*background-color: #000000;*/
+}
+
+h2.title {
+	font-size: 20px;
+}
+h3.title {
+	font-size: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	h2.title {
+		font-size: 23px;
+	}
+	h3.title {
+		font-size: 20px;
+	}
+	.head-container {
+		width: 95%;
+		margin: 15px auto;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	h2.title {
+		font-size: 26px;
+	}
+	h3.title {
+		font-size: 23px;
+	}
+	.head-container {
+		width: 90%;
+		margin: 20px auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	h2.title {
+		font-size: 30px;
+	}
+	h3.title {
+		font-size: 26px;
+	}
+	.head-container {
+		width: 85%;
+		margin: 20px auto;
+	}
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 70px;
+}
+
+.address {
+	padding: 15px 25px;
+	text-align: left;
+}
+
+@media (min-width: 1200px) {
+	.row {
+		text-align: center;
+		margin: 0px;
+	}
+	.slides {
+		display: inline-block;
+	}
+}
+
+/* device width less then 767px */
+@media screen and (max-width: 767px) {
+	ul.nav.navbar-nav {
+		float: left !important;
+		width: 100%;
+	}
+	
+	.menu {
+		border-bottom: 1px solid;
+	}
+	
+	.navbar-brand {
+		display: block !important;
+	}
+}
+
+/* device width more then 768px */
+@media screen and (min-width: 768px) {
+	.navbar-nav>li {
+	    float: none;
+	}
+	ul.nav.navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar-nav>li {
+		display: inline-block;
+	}
+}
